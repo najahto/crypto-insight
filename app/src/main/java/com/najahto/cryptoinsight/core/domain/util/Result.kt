@@ -1,4 +1,4 @@
-package com.najahto.cryptoinsight.util
+package com.najahto.cryptoinsight.core.domain.util
 
 typealias DomainError = Error
 

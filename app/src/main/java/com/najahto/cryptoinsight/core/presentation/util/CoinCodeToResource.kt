@@ -1,4 +1,4 @@
-package com.najahto.cryptoinsight.util
+package com.najahto.cryptoinsight.core.presentation.util
 
 import com.najahto.cryptoinsight.R
 

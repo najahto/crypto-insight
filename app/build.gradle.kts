@@ -21,6 +21,10 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
+
+        // Coincap Base URL
+        buildConfigField("String", "API_BASE_URL", "\"https://api.coincap.io/v2/\"")
+
     }
 
     buildTypes {

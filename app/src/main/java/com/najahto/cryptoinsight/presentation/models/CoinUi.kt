@@ -3,7 +3,7 @@ package com.najahto.cryptoinsight.presentation.models
 import android.icu.text.NumberFormat
 import androidx.annotation.DrawableRes
 import com.najahto.cryptoinsight.domain.models.CoinModel
-import com.najahto.cryptoinsight.util.getDrawableIdForCoin
+import com.najahto.cryptoinsight.core.presentation.util.getDrawableIdForCoin
 import java.util.Locale
 
 class CoinUi(
