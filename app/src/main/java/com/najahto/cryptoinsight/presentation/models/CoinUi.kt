@@ -4,9 +4,10 @@ import android.icu.text.NumberFormat
 import androidx.annotation.DrawableRes
 import com.najahto.cryptoinsight.domain.models.CoinModel
 import com.najahto.cryptoinsight.core.presentation.util.getDrawableIdForCoin
+import com.najahto.cryptoinsight.presentation.coin_detail.DataPoint
 import java.util.Locale
 
-class CoinUi(
+data class CoinUi(
     val id: String,
     val name: String,
     val rank: Int,
@@ -14,7 +15,8 @@ class CoinUi(
     val marketCap: DisplayableNumber,
     val price: DisplayableNumber,
     val changePercent: DisplayableNumber,
-    @DrawableRes val iconRes: Int
+    @DrawableRes val iconRes: Int,
+    val coinPriceHistory: List<DataPoint> = emptyList()
 )
 
 data class DisplayableNumber(
