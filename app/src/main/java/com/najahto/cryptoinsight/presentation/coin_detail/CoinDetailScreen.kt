@@ -51,7 +51,7 @@ import com.najahto.cryptoinsight.ui.theme.greenBackground
 @Composable
 fun CoinDetailScreen(
     state: CoinListState,
-    modifier: Modifier
+    modifier: Modifier = Modifier
 ) {
     val contentColor = if (isSystemInDarkTheme()) Color.White else Color.Black
 
